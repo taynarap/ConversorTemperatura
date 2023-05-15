@@ -37,11 +37,8 @@ function resultado(valor){
 // ---------- BTN AC ---------- 
 
 function limparTudo(){
-    let ecra = document.getElementById("valor");
-    let resultado = document.getElementById("resultado");
-
-    ecra.innerHTML="";
-    resultado.innerHTML="";
+    document.getElementById("valor").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
 }
 
 // ---------- BTN DE ---------- 
