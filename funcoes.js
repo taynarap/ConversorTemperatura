@@ -25,7 +25,7 @@ function resultado(valor){
     
     if(!isNaN(celsius)){
         let k = celsius + 273;
-        let f = (celsius * 1.8)+32;
+        let f = (celsius * 1.8 )+32;
         resultado.innerHTML= celsius+ " ºC = " + f.toFixed(2) + " ºF <br><br>";
         resultado.innerHTML+= celsius + " ºC = " + k.toFixed(2) + " ºK <br>";
     }
