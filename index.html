@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Temperaturas</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- JavaScript -->
+        <script src="funcoes.js"></script>
+        <!-- Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <h1>Calculadora de Temperaturas</h1>
+        <p class="subtitulo">De Celsius para Fahrenheit e Kelvin</p>
+        <br><br>
+        <div class="container">
+            <div class="caixa row">
+                <div class="col-12">
+                    <form>
+                        <div id="ecra">
+                            <span id="valor"></span> ºC
+                        </div>
+                        <div>
+                            <input type="button" value="7" onclick="digitar('7')">
+                            <input type="button" value="8" onclick="digitar('8')">
+                            <input type="button" value="9" onclick="digitar('9')">
+                            <input type="button" value="AC" onclick="limparTudo()" class="operador">
+                        </div>
+                        <div>
+                            <input type="button" value="4" onclick="digitar('4')">
+                            <input type="button" value="5" onclick="digitar('5')">
+                            <input type="button" value="6" onclick="digitar('6')">
+                            <input type="button" value="." onclick="digitar('.')" class="operador">
+                        </div>
+                        <div>
+                            <input type="button" value="1" onclick="digitar('1')">
+                            <input type="button" value="2" onclick="digitar('2')">
+                            <input type="button" value="3" onclick="digitar('3')">
+                            <input type="button" value="-" onclick="digitar('-')" class="operador">
+                        </div>
+                        <div>
+                            <input type="button" value="00" onclick="digitar('00')">
+                            <input type="button" value="0" onclick="digitar('0')">
+                            <input type="button" value="DE" onclick="limparUltimo()"
+                                class="deletar operador">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="caixa row">
+                <div class="col-12">
+                    <div class="titulo">Resultado:</div>
+                    <span id="resultado"></span>
+                </div>
+            </div>
+        </div>
+        <script src="funcoes.js"></script>
+    </body>
+
+</html>
