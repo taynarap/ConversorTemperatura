@@ -1,10 +1,11 @@
-# ConversorTemperatura
+<h1 align="center">
+Temperature Converter  
+</h1>
 
-## 🔎 Projeto
-Esse é um simples conversor de temperaturas. Converte automáticamente temperaturas em Celsius para Fahrenheit e Kelvin. 
+## 🔎 Project
+A simple temperature converter interface, that automatically converts Celsius to Fahrenheit and Kelvin.
 
-## ⚙️ Tecnologias
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## ⚙️ Technologies
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
