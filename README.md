@@ -4,6 +4,7 @@ Temperature Converter
 
 ## 🔎 Project
 A simple temperature converter interface, that automatically converts Celsius to Fahrenheit and Kelvin.
+You can try the website here: https://taynarap.github.io/TemperatureConverter/
 
 ## ⚙️ Technologies
 
